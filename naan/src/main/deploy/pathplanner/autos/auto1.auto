@@ -7,19 +7,25 @@
         {
           "type": "path",
           "data": {
-            "pathName": "New Path"
+            "pathName": "auto1path1"
           }
         },
         {
           "type": "path",
           "data": {
-            "pathName": "New New Path"
+            "pathName": "auto1path2"
           }
         },
         {
           "type": "path",
           "data": {
-            "pathName": "New New New Path"
+            "pathName": "auto1path3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "auto1path4"
           }
         }
       ]
