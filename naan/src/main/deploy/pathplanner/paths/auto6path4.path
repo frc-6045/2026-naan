@@ -41,7 +41,7 @@
       },
       "nextControl": {
         "x": 5.199744375387237,
-        "y": 0.4467170074349451
+        "y": 0.446717007434945
       },
       "isLocked": false,
       "linkedName": null
@@ -86,7 +86,7 @@
     "rotation": 30.848999999999997
   },
   "reversed": false,
-  "folder": null,
+  "folder": "auto6paths",
   "idealStartingState": {
     "velocity": 3.0,
     "rotation": 90.0

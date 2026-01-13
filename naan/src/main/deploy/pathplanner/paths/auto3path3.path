@@ -86,7 +86,7 @@
     "rotation": 0.0
   },
   "reversed": false,
-  "folder": null,
+  "folder": "auto3paths",
   "idealStartingState": {
     "velocity": 3.0,
     "rotation": 90.0
