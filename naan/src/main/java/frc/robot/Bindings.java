@@ -13,5 +13,13 @@ import frc.robot.Constants.MotorConstants;
 import frc.robot.Constants.PositionConstants;
 //import frc.robot.Constants.PositionConstants.Setpoints;
 public class Bindings {
+    public static void InitBindings(
+        CommandXboxController m_driverController,
+        CommandXboxController m_operatorController,
+        CommandXboxController m_testController 
+        //Put subsystems here
 
+    ){
+        /*Driver Bindings */
+    }
 }
