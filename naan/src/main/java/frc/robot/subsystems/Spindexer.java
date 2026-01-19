@@ -1,6 +1,5 @@
 package frc.robot.subsystems;
 
-import com.revrobotics.AbsoluteEncoder;
 import com.revrobotics.spark.SparkFlex;
 import com.revrobotics.spark.config.SparkFlexConfig;
 import com.revrobotics.spark.config.ClosedLoopConfig.FeedbackSensor;
@@ -37,12 +36,12 @@ public class Spindexer extends SubsystemBase {
   public void setSpeed(double speed) {
     //speed = MathUtil.clamp(-MotorConstants.kSpindexerMotorMaximumSpeed,MotorConstants.kSpindexerMotorMaximumSpeed);
     m_SpindexerMotor.set(speed);
-    SmartDashboard.putNumber("Climb speed", speed);
+    SmartDashboard.putNumber("Spindexer speed", speed);
   }
 
   public void stopClimbMotor() {
     m_SpindexerMotor.stopMotor();
-    SmartDashboard.putNumber("Climb speed", 0);
+    SmartDashboard.putNumber("Spindexer speed", 0);
   }
 
   @Override
